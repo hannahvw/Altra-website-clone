@@ -3,25 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3f831d9f1f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Altra</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#"><img src="images/altra-logo.png" alt="Altra logo" /></a>
-        <ul>
-          <li>New Arrivals</li>
-          <li>Women</li>
-          <li>Men</li>
-          <li>More</li>
-        </ul>
-        <div>
-          <input type="text" placeholder="Search" />
-          <button><img src="images/search.svg" /></button>
+      <nav class="nav-container">
+        <div class="nav-logo">
+          <a href="#"
+            ><img id="altra-logo" src="images/altra-logo.png" alt="Altra logo"
+          /></a>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>New Arrivals</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>More</li>
+          </ul>
+          <div>
+            <input type="text" placeholder="Search" />
+            <button><img src="images/search.svg" /></button>
+          </div>
+        </div>
+        <div class="nav-icons">
+          <ul>
+            <li><i class="fa-solid fa-circle-question"></i></li>
+            <li><i class="fa-solid fa-gift"></i></li>
+            <li><i class="fa-solid fa-comments"></i></li>
+            <li><i class="fa-solid fa-location-dot"></i></li>
+            <li><i class="fa-solid fa-heart"></i></li>
+            <li><i class="fa-solid fa-user"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
         </div>
       </nav>
-      <p>
+      <p class="promotion">
         FREE 3-day shipping | Give the Gift of Running - Free Returns Extended
         Through 1/26/24
       </p>
