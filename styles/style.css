@@ -5,11 +5,11 @@
 }
 
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Proxima Nova", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #altra-logo {
-  width: 225px;
+  width: 250px;
   height: 90px;
   display: block;
 }
@@ -33,7 +33,7 @@ nav li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .nav-icons i {
@@ -84,9 +84,44 @@ nav li {
   cursor: pointer;
 }
 
-.nav-links {
+.nav-row-2 {
   display: flex;
   height: 45px;
+  position: relative;
+}
+
+.nav-links li {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.search {
+  border: 1px solid #444444;
+  opacity: 0.4;
+  height: 40px;
+  width: 175px;
+  position: absolute;
+  right: 10px;
+}
+
+.search input {
+  border: none;
+}
+
+.search input::placeholder {
+  color: #444444;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.search button {
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+  opacity: 1;
+  border: none;
+  height: 100%;
+  margin-right: 10px;
 }
 
 .promotion {
