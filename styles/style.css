@@ -121,8 +121,9 @@ nav li {
   opacity: 0;
 }
 
-.gray:hover > hr {
+.gray:hover hr {
   opacity: 1;
+  border: 1.5px solid #444444;
 }
 
 .uppercase {
@@ -166,3 +167,4 @@ nav li {
   font-size: 12px;
   font-weight: 500;
 }
+
