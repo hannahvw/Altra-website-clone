@@ -212,10 +212,12 @@ nav li {
   background-color: var(--primary-red-color);
 }
 
+.page-links {
+  height: 60vh;
+}
+
 .footer-container {
   background-color: var(--secondary-gray-color);
-  height: 40vh;
-  margin-bottom: 0;
 }
 
 footer a {
@@ -223,10 +225,10 @@ footer a {
 }
 
 .footer-action-container {
-  height: 30vh;
+  height: 33vh;
   display: grid;
-  grid-template-columns: 33% 25% 10% 30%;
-  grid-column-gap: 5px;
+  grid-template-columns: 31% 25% 10% 30%;
+  grid-column-gap: 8px;
   align-items: start;
 }
 
@@ -300,6 +302,7 @@ footer a {
 }
 
 .legal-info-container {
+  height: 20vh;
   width: 50vw;
   display: flex;
   align-items: center;
