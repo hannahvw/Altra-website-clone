@@ -1,7 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+:root {
+  --primary-red-color: #dd0007;
+  --secondary-red-color: #ed1c24;
 }
 
 html {
@@ -49,7 +59,7 @@ nav li {
 
 .cart-icon:hover {
   cursor: pointer;
-  color: #eb0a27;
+  color: var(--primary-red-color);
 }
 
 .cart-icon {
@@ -68,11 +78,11 @@ nav li {
 
 .nav-icons li a:hover {
   text-decoration: underline;
-  color: #eb0a27;
+  color: var(--primary-red-color);
 }
 
 .cart-quantity {
-  background-color: #eb0a27;
+  background-color: var(--primary-red-color);
   color: white;
   border: none;
   font-size: 13px;
@@ -106,7 +116,7 @@ nav li {
 }
 
 .nav-links li hr {
-  border: 1.5px solid #eb0a27;
+  border: 1.5px solid var(--primary-red-color);
   margin-top: 1px;
   opacity: 0;
 }
@@ -168,3 +178,34 @@ nav li {
   font-weight: 500;
 }
 
+.about-container {
+  text-align: center;
+  position: relative;
+}
+
+.about-container img {
+  height: 250px;
+  width: 100vw;
+}
+
+/*TODO: add text above the button*/
+
+.about-container a {
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  position: absolute;
+  left: 37vw;
+  top: 100px;
+}
+
+.red-btn {
+  background-color: var(--secondary-red-color);
+  padding: 12px 20px;
+  color: white;
+}
+
+.about-container .red-btn:hover {
+  background-color: var(--primary-red-color);
+}
