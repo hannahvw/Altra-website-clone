@@ -212,9 +212,14 @@ nav li {
   background-color: var(--primary-red-color);
 }
 
-footer {
+.footer-container {
   background-color: var(--secondary-gray-color);
   height: 40vh;
+  margin-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .footer-action-container {
@@ -245,6 +250,19 @@ footer {
   padding-bottom: 30px;
 }
 
+.store-btn {
+  background-color: var(--primary-red-color);
+  padding: 10px 0;
+  font-size: 0.8em;
+  display: inline-block;
+  width: 90%;
+  color: white;
+}
+
+.store-btn:hover {
+  background-color: var(--secondary-red-color);
+}
+
 .footer-grid-item-2 div {
   display: flex;
   justify-content: space-between;
@@ -253,7 +271,32 @@ footer {
 .footer-social-media-links {
   color: var(--primary-red-color);
   font-size: 1.5em;
+}
 
+.footer-email-input {
+  border: 1px solid var(--secondary-gray-color);
+  padding: 12px 0 12px 5px;
+  width: 75%;
+}
+
+.footer-email-input::placeholder {
+  color: black;
+  opacity: 0.3;
+}
+
+.footer-email-button {
+  background-color: var(--primary-red-color);
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  margin-left: -6px;
+  width: 20%;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.footer-email-button:hover {
+  background-color: var(--secondary-red-color);
 }
 
 .legal-info-container {
@@ -272,4 +315,9 @@ footer {
   font-size: 9px;
   color: var(--primary-red-color);
   text-decoration: none;
+}
+
+.legal-info-container a:hover {
+  text-decoration: underline;
+  color: var(--primary-red-color);
 }
