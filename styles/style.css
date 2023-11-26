@@ -233,6 +233,64 @@ nav li {
   background-color: var(--secondary-gray-color);
 }
 
+.activity-carousel-container {
+  height: 50vh;
+  padding: 0 5px;
+}
+
+.activity-carousel-container p {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 550;
+  margin-top: 50px;
+}
+
+.images-carousel img {
+  width: 100px;
+}
+
+.shoe-finder-container {
+  height: 50vh;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 45vw 55vw;
+  align-items: center;
+}
+
+.shoe-finder-container img {
+  width: 325px;
+}
+
+.shoe-finder-text {
+  text-align: center;
+  margin-right: 50px;
+  margin-top: -25px;
+}
+
+.shoe-finder-text p:first-child {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-bottom: 10px
+}
+
+.shoe-finder-text p:last-of-type {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.shoe-finder-text a {
+  text-decoration: none;
+  background-color: var(--primary-red-color);
+  color: white;
+  padding: 12px 20px;
+}
+
+.shoe-finder-text a:hover {
+  background-color: var(--secondary-red-color);
+}
+
 .gift-container {
   position: relative;
 }
