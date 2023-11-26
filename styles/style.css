@@ -17,7 +17,7 @@
 }
 
 html {
-  font-family: "Proxima Nova", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Figtree, Tahoma, sans-serif;
 }
 
 #altra-logo {
@@ -204,8 +204,8 @@ nav li {
 .hero-container p:first-child {
   text-transform: uppercase;
   text-align: right;
-  font-size: 1.8em;
-  font-weight: 700;
+  font-size: 2em;
+  font-weight: 800;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -222,6 +222,7 @@ nav li {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: 600;
   color: black;
   background-color: white;
   border: 1px solid black;
@@ -240,13 +241,13 @@ nav li {
 
 .activity-carousel-container p {
   text-transform: uppercase;
-  font-size: 1.4em;
-  font-weight: 550;
+  font-size: 1.6em;
+  font-weight: 800;
   margin-top: 50px;
 }
 
 .images-carousel img {
-  width: 100px;
+  width: 150px;
 }
 
 .shoe-finder-container {
@@ -271,12 +272,12 @@ nav li {
   text-transform: uppercase;
   font-size: 1.4em;
   letter-spacing: 0.05em;
-  font-weight: 600;
-  margin-bottom: 10px
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .shoe-finder-text p:last-of-type {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 30px;
 }
 
@@ -330,21 +331,67 @@ nav li {
   background-color: var(--secondary-red-color);
 }
 
+.merch-container {
+  height: 100vh;
+  margin: 25px 0;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.merch-container img {
+  width: 375px;
+}
+
+.merch-text {
+  text-align: center;
+}
+
+.merch-text p {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.shop-btn {
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 10px 12px;
+  display: inline-block;
+}
+
+.shop-btn:hover {
+  background-color: var(--secondary-gray-color);
+}
+
 .about-container {
   text-align: center;
   position: relative;
 }
 
 .about-container img {
-  height: 250px;
+  height: 275px;
   width: 100vw;
 }
 
-/*TODO: add text above the button*/
+.about-container p {
+  font-size: 1.6em;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 55px;
+  left: 29vw;
+}
 
 .about-container a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 0.8em;
   position: absolute;
@@ -352,14 +399,14 @@ nav li {
   top: 100px;
 }
 
-.red-btn {
-  background-color: var(--secondary-red-color);
+.about-btn {
+  background-color: var(--primary-red-color);
   padding: 12px 20px;
   color: white;
 }
 
-.about-container .red-btn:hover {
-  background-color: var(--primary-red-color);
+.about-container .about-btn:hover {
+  background-color: var(--secondary-red-color);
 }
 
 .page-links {
@@ -377,14 +424,15 @@ footer a {
 .footer-action-container {
   height: 33vh;
   display: grid;
-  grid-template-columns: 31% 25% 10% 30%;
-  grid-column-gap: 8px;
+  grid-template-columns: 30% 25% 7% 30%;
+  grid-column-gap: 15px;
   align-items: start;
 }
 
 .footer-grid-item-1 {
   grid-column: 1 / 2;
   text-align: center;
+  margin-left: 10px;
 }
 
 .footer-grid-item-2 {
@@ -398,7 +446,8 @@ footer a {
 .footer-action-container p {
   text-transform: uppercase;
   font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   padding-bottom: 30px;
 }
 
@@ -406,6 +455,8 @@ footer a {
   background-color: var(--primary-red-color);
   padding: 10px 0;
   font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
   display: inline-block;
   width: 90%;
   color: white;
@@ -418,6 +469,7 @@ footer a {
 .footer-grid-item-2 div {
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
 }
 
 .footer-social-media-links {
